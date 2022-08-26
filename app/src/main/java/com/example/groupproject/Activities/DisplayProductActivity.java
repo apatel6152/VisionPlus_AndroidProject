@@ -20,6 +20,9 @@ public class DisplayProductActivity extends AppCompatActivity {
     ProductAdapter adapter;
     DatabaseReference mbase;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
