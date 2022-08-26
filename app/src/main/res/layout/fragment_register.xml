@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.LoginFragment"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loginframe"></ImageView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/visionpluslogo"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="1dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/capture_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="1dp" />
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_marginTop="250dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.RegisterFragment">
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/indigo_daisy"
+        />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Join Us"
+        android:textSize="17sp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginStart="25dp"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Email Address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textPassword"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/repassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Re_type_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textPassword"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/layout_color"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Register"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@id/swipeLeft"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_left" />
+
+        <TextView
+            android:id="@+id/swipeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Swipe_right_for_login"
+            android:textSize="15sp" />
+
+
+
+</LinearLayout>
+</RelativeLayout>

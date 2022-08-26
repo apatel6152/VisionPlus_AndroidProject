@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable-v24/edittext_style.xml" value="0.25846153846153846" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable-v24/ic_baseline_done_all_24.xml" value="0.14114583333333333" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable-v24/style_for_edittext.xml" value="0.2625" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/activity_dot.xml" value="0.2625" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/btn_custom.xml" value="0.14114583333333333" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/et_custom.xml" value="0.14114583333333333" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/gradient_color.xml" value="0.26614583333333336" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/ic_arrow_left.xml" value="0.14114583333333333" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/ic_arrow_right.xml" value="0.14114583333333333" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/ic_baseline_Plus.xml" value="0.26614583333333336" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/ic_baseline_done_all_24.xml" value="0.2625" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.25846153846153846" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/layout_color.xml" value="0.14322916666666666" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/drawable/non_active_dot.xml" value="0.2625" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_checkout.xml" value="0.24320652173913043" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_display_data.xml" value="0.24635416666666668" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_login_register.xml" value="0.125" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_main.xml" value="0.10400000000000001" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_product_details.xml" value="0.125" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_products.xml" value="0.2296195652173913" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.1598731884057971" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/custom_viewpger.xml" value="0.12708333333333333" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/fragment_products_details.xml" value="0.22568093385214008" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/fragment_products_fragments.xml" value="0.2296195652173913" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/fragment_register.xml" value="0.125" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/order_confirm_dialog.xml" value="0.125" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/order_dialog.xml" value="0.24320652173913043" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/product.xml" value="0.22554347826086957" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/product_details.xml" value="0.24635416666666668" />
+        <entry key="..\:/Conestoga/android programming/GroupProject/app/src/main/res/layout/recycler_data.xml" value="0.12708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
